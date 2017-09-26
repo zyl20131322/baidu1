@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 12px arial;
+    min-width: 850px;
+}
+
+header {
+    overflow: hidden;
+}
+
+header nav {
+    margin-top: 20px;
+    float: right;
+    display: block;
+}
+
+header nav a {
+    margin-right: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #333;
+    line-height: 160%;
+}
+
+.hidemp {
+    margin-top: 20px;
+    width: 90px;
+    float: right;
+    text-align: center;
+}
+
+.bri {
+    background: #38f;
+    color: #fff;
+    display: inline-block;
+    width: 62px;
+    line-height: 160%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.content {
+    text-align: center;
+    font-size: 0px;
+    margin:0 auto;
+}
+
+.content input {
+    width: 526px;
+    height: 32px;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid #4791ff;
+    border-right-width: 0;
+    vertical-align: top;
+    padding-left: 5px;
+    outline: none;
+}
+
+.btn {
+    width: 97px;
+    height: 34px;
+    color: #fff;
+    background: #3385ff;
+    font-size: 15px;
+    display: inline-block;
+    border: 0px;
+    vertical-align: top;
+}
+
+.ftcon,
+.ftcon a {
+    color: #999;
+    text-align: center;
+}
+
+.h a {
+    margin-left: 25px;
+}
+/*footer中的图标*/
+.cp .c-icon-icrlogo,
+.c-icon-jgwablogo {
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    overflow: hidden;
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_5859e57.png) no-repeat;
+}
+
+.cp .c-icon-jgwablogo {
+    background-position: -623px -96px;
+    position: relative;
+    top: 3px;
+}
+
+.cp .c-icon-icrlogo {
+    background-position: -600px -96px;
+    position: relative;
+    top: 3px;
+}
+/*相机图标*/
+.soutu-btn {
+    z-index: 1;
+    position: absolute;
+    margin: 9px 0px 9px -30px;
+    height: 16px;
+    width: 18px;
+    background: #fff url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_5606e8f.png) no-repeat;
+}
+
+.ftcon {
+	margin:20px auto;
+}
+
+.baidulogo {
+    margin-bottom: 20px;
+}
+
+.qrcode-text {
+    color: #666;
+    line-height: 23px;
+    margin: 3px 0 0 5px;
+}
+
+.qrcode-item {
+    margin: 180px auto 0;
+    text-align: center;
+}
+/*二维码图片*/
+.qrcode-img {
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png) 0 0 no-repeat;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+.moreproduct {
+    display: none;
+    width: 90px;
+    height: 100%;
+    padding-left: 20px;
+    font-size: 13px;
+    border-left: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    padding: 20px 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+    float: right;
+    position: fixed;
+    right: 0;
+}
+
+.mptitle {
+    color: #000;
+    width: 62px;
+    line-height: 160%;
+    padding: 0 8px 12px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.mplink a {
+    display: inline-block;
+    width: 62px;
+    padding: 0 8px 8px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #666;
+    text-decoration: none;
+}
+
+.mplink .mpevenmore a {
+    text-decoration: underline;
+    border-bottom: 0;
+}
+
+.mplink .bdbriimgitem_1 {
+    background-position: 0 0;
+}
+
+.mplink .bdbriimgitem_2 {
+    background-position: -36px 0;
+}
+
+.mplink .bdbriimgitem_3 {
+    width: 40px;
+    background-position: -72px 0;
+}
+
+.mplink .bdbriimgitem_4 {
+    background-position: -112px 0;
+}
+
+.mplink .bdbriimgitem_5 {
+    background-position: -148px 0;
+}
+
+.mplink .bdbriimgitem_6 {
+    background-position: -184px 0;
+}
+
+.mplink span {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 10px auto 5px;
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/bdbri_icons_0a62ce1.png) no-repeat;
+}
+.setting{
+	width: 70px;
+	position: absolute;
+	right: 90px;
+	display: none;
+
+}
+.setting-head{
+	height: 0;
+	width: 0;
+	position: absolute;
+	left: 50%;
+	margin-left: -3px;
+	margin-top: -3px;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #d8d8d8;
+}
+.setting-content{
+	border:1px solid #d8d8d8;
+	text-align: center;
+	margin-top: 6px;
+	padding-bottom: 1px;
+}
+.setting-content a{
+	display: inline-block;
+	line-height: 26px;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	width: 68px;
+}
+.setting-content a:hover{
+	color: white;
+	background-color: #38f;
+}

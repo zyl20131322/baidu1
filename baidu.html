@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>百度一下，你就知道</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/baidu.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- 导航 -->
+        <header>
+            <!-- 隐藏的更多产品 -->
+            <div class="hidemp" id="hidemp" onmouseover="displayMoreProduct()">
+                <a href="http://www.baidu.com/more/" class="bri">更多产品</a>
+            </div>
+            <!-- 展开的更多产品 -->
+            <div class="moreproduct" id="moreproduct" onmouseover="displayMoreProduct()" onmouseout="hideMoreProduct()">
+                <div class="mptitle">更多产品</div>
+                <div class="mplink" id="mplink">
+                    <a href="http://www.nuomi.com/?cid=002540" name="tj_nuomi"><span class="bdbriimgitem_1"></span>糯米</a>
+                    <a href="http://music.baidu.com" name="tj_mp3"><span class="bdbriimgitem_3"></span>音乐</a>
+                    <a href="http://image.baidu.com" name="tj_img"><span class="bdbriimgitem_4"></span>图片</a>
+                    <a href="http://zhidao.baidu.com" name="tj_zhidao"><span class="bdbriimgitem_2"></span>知道</a>
+                    <a href="http://wenku.baidu.com" name="tj_wenku"><span class="bdbriimgitem_5"></span>文库</a>
+                    <a href="http://top.baidu.com" name="tj_bang"><span class="bdbriimgitem_6"></span>风云榜</a>
+                    <div class="mpevenmore"><a href="//www.baidu.com/more/" name="tj_more">全部产品&gt;&gt;</a></div>
+                </div>
+            </div>
+            <nav id="nav">
+                <a href="http://news.baidu.com/"><b>新闻</b></a>
+                <a href="http://www.hao123.com/"><b>hao123</b></a>
+                <a href="http://map.baidu.com/"><b>地图</b></a>
+                <a href="http://v.baidu.com/"><b>视频</b></a>
+                <a href="https://tieba.baidu.com/index.html"><b>贴吧</b></a>
+                <a href="http://xueshu.baidu.com/"><b>学术</b></a>
+                <a href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F">登录</a>
+                <a href="http://www.baidu.com/gaoji/preferences.html" onmouseover="displaySetting()" onmouseout="hideSetting()">设置</a>
+            </nav>
+        </header>
+        <div class="setting" id="setting" onmouseover="displaySetting()" onmouseout="hideSetting()">
+            <div class="setting-head"></div>
+            <div class="setting-content">
+            <a class="setpref" >搜索设置</a>
+            <a href="//www.baidu.com/gaoji/advanced.html" target="_blank">高级搜索</a>
+            <a href="javascript:;">关闭预测</a>
+            <a href="javascript:;">搜索历史</a>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="content">
+            <!-- 百度logo -->
+            <img class="baidulogo" src="https://www.baidu.com/img/bd_logo1.png" alt="百度一下" height="129" width="270">
+            <!-- 搜索框 -->
+            <form action="https://www.baidu.com/s" method="get" target="_blank">
+                <input type="text" name="wd" id="wd" onclick="displayInput()" onblur="hideInput()" autofocus><i class="soutu-btn" ></i></input>
+                <button type="submit" class="btn">百度一下</button>
+            </form>
+        </div>
+        <!-- 二维码 -->
+        <div class="qrcode-item">
+            <div class="qrcode-img"></div>
+            <p class="qrcode-text"><b>手机百度</b></p>
+        </div>
+        <!-- footer -->
+        <footer class="ftcon">
+            <p class="h">
+                <a href="https://www.baidu.com/cache/sethelp/help.html">把百度设为主页</a>
+                <a href="http://home.baidu.com/">关于百度</a>
+                <a href="http://ir.baidu.com/phoenix.zhtml?c=188488&p=irol-irhome">About Baidu</a>
+                <a href="http://e.baidu.com/?refer=888">百度推广</a>
+            </p>
+            <p class="cp">
+                <span>&copy;2017&nbsp;Baidu</span>&nbsp;
+                <a href="https://www.baidu.com/duty/">使用百度前必读</a>&nbsp;
+                <a href="http://help.baidu.com/">意见反馈</a>&nbsp;
+                <span>京ICP证030173号 </span>
+                <i class="c-icon-icrlogo"></i>&nbsp;
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001">京公网安备11000002000001号</a>
+                <i class="c-icon-jgwablogo"></i>
+            </p>
+        </footer>
+    </div>
+    <script src="js/baidu.js"></script>
+</body>
+
+</html>
